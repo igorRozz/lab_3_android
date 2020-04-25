@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editDepature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введіть пункт відправлення" />
+
+    <EditText
+        android:id="@+id/editArrival"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введіть пункт прибуття" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/firsttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19:15" />
+
+        <RadioButton
+            android:id="@+id/secondtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20:45" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+</LinearLayout>
